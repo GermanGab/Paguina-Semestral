@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3072b3;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+}
+
+.actividades {
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
