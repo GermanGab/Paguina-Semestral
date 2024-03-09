@@ -1,0 +1,23 @@
+header{
+  background: #333;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+  border-bottom: 4px #000; solid;
+  margin-bottom: 10px;
+}
+
+#contenedor {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+#caja {
+  background: #333;
+  color: #fff;
+  width: 500px;
+  height: 100px;
+  padding: 40px;
+  text-align: center;
+}
