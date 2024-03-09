@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand titulo" href=""><b>Tienda</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="ordenadores">Ordenadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="laptops">Laptops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="smartphones">Smartphones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="monitores">Monitores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="audifonos">Audifonos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="componentes">Componentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="televisores">Televisores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="perifericos">Perifericos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-category="consolas">Consolas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cart">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Bienvenido a la Tienda</h1>
+        <p class="lead">Encuentra todo lo que necesitas aquí</p>
+    </header>
+
+    <!-- PPRODUCTOS -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="row" id="product-list">
+                <!-- se agrega de forma dinamica -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CARRITO -->
+    <section id="cart" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Carrito</h2>
+            <!-- articulos comprados -->
+            <div class="row shopping-cart-items">
+                <!-- se agregan los productos comprado de forma dinamica -->
+            </div>
+            <!-- Total -->
+            <div class="row mt-3">
+                <div class="col">
+                    <h4>Total: <span class="shopping-cart-total">$0.00</span></h4>
+                    <button class="btn btn-success" id="checkout-btn">Pagar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <p>&copy; 2024 Tienda Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-Vqo/x1uqS+ZkFFKztyabv65t+gAaTgm+eVkG7//eS25ZgD/+aGzggKRhpKcf7/t+"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="tienda.js"></script>
+</body>
+
+</html>
